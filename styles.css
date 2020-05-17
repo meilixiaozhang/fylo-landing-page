@@ -1,0 +1,237 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1,
+h2,
+.navbar,
+.btn {
+  font-family: 'Raleway';
+}
+
+p {
+  font-family: 'Open Sans';
+}
+
+h1, h2 {
+  font-weight: 700;
+}
+
+.title {
+  padding: 5% 6%;
+  width: 100%;
+}
+
+ul {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+li {
+  margin-left: 30px;
+  display: inline-block;
+}
+
+.top-section {
+  padding: 10% 6%;
+}
+
+.container {
+  display: flex;
+}
+
+.enter-email {
+  margin-right: 1rem;
+  width: 45%;
+  display: inline-block;
+  border-radius: 2px;
+  margin-bottom: 5%;
+}
+
+.get-started {
+  padding: 1.2% 10%;
+  border-radius: 2px;
+  margin-left: 5px;
+}
+
+h1 {
+  line-height: 3rem;
+}
+
+.illustration {
+  width: 100%;
+}
+
+.middle-section {
+  padding: 10% 6%;
+  background-image: url("images/bg-curve-desktop.svg");
+  background-size: cover;
+  background-position: center;
+}
+
+.middle-section a {
+  color: hsl(170, 45%, 43%);
+  text-decoration: underline;
+}
+
+.testmonial {
+  width: 25rem;
+  height: 17rem;
+  background-color: white;
+  padding: 7%;
+  padding-bottom: 0;
+  margin-left: 0;
+  margin-top: 5%;
+  text-align: left;
+  max-width: 100%;
+}
+
+.quote {
+  width: 20px;
+  margin-bottom: 5px;
+}
+
+.avatar {
+  width: 50px;
+  border-radius: 100%;
+  float: left;
+  overflow: hidden;
+}
+
+.testmonial .title {
+  display: inline-block;
+  margin-left: 50px;
+  position: relative;
+  bottom: 60px;
+}
+
+.access {
+  background-color: hsl(238, 22%, 44%);
+  padding: 10% 6%;
+  color: white;
+}
+
+.access h2 {
+  line-height: 3rem;
+}
+
+.access-description {
+  width: 85%;
+}
+
+.input {
+  margin: 10px 5px;
+  box-shadow: 5px;
+}
+
+.access .btn {
+  margin: 10px 5px;
+  padding: 2% 5%;
+}
+
+.footer {
+  background-color: hsl(243, 87%, 12%);
+  color: #fff;
+  padding: 10% 6%;
+  text-align: left;
+}
+
+.logo-white {
+  margin-bottom: 20px;
+}
+
+.icon {
+  margin-right: 5px;
+}
+
+.contact {
+  display: inline-block;
+}
+
+.circle {
+  border: 1px solid #ffffff;
+  border-radius: 100%;
+  display: inline-block;
+  height: 36px;
+  width: 36px;
+  text-align: center;
+}
+
+.circle .fab {
+  color: white;
+  width: 36px;
+  margin-top: 10px;
+  margin-left: 0;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 1.3rem;
+    line-height: 2;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+
+  ul {
+    margin-top: 10px;
+  }
+
+  li {
+    margin-left: 5px;
+    font-size: 0.9rem;
+  }
+
+  .top-section,
+  .middle-section,
+  .access {
+    text-align: center;
+  }
+
+  .top-section {
+    margin-bottom: 10%;
+  }
+
+  .flex {
+    flex-direction: column-reverse;
+  }
+
+  .illustration {
+    margin: 10% 0;
+  }
+
+  .access-description {
+    padding: 0;
+    width: 95%;
+  }
+
+  .description {
+    color: hsl(238, 22%, 44%);
+  }
+
+  .logo {
+    width: 30%;
+    vertical-align: middle;
+    margin: 0;
+  }
+
+  .container {
+    flex-direction: column-reverse;
+  }
+
+  .middle-section {
+    background-image: url("images/bg-curve-mobile.svg");
+  }
+
+  .btn,
+  .form-control {
+    width: 100%;
+  }
+}
