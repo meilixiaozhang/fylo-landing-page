@@ -1,6 +1,6 @@
 # Frontend Mentor - Fylo landing page with two column layout
 
-![Design preview for the Fylo landing page with two column layout challenge](./design/desktop-preview.jpg)
+<img width="1439" alt="Screen Shot 2020-06-04 at 12 23 21 am" src="https://user-images.githubusercontent.com/41104185/83648670-a7455500-a5f9-11ea-911b-9616c7cd46a3.png">
 
 ## Welcome! 👋
 
